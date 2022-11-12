@@ -1,6 +1,17 @@
-.logo {
-  max-width: 75px;
-  max-height: 75px;
+/* Error: Can't find stylesheet to import.
+ *   ,
+ * 1 | @import "general"
+ *   |         ^^^^^^^^^
+ *   '
+ *   scss\estilo.scss 1:9  root stylesheet */
+
+
+.logo{
+    max-width: 75px;
+    max-height: 75px;
 }
 
-/*# sourceMappingURL=estilo.css.map */
+.carousel-inner{
+    display: inline-block;
+    max-height: 100px;    
+}
