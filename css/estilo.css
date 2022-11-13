@@ -1,15 +1,51 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Sono:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fasthand&display=swap");
 .logo {
-  max-width: 75px;
-  max-height: 75px;
+  display: inline-block;
+  padding-left: 1rem;
+  max-width: 15%;
+  max-height: 15%;
+}
+
+html h1 {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+html h1 span {
+  font-size: 3rem;
+  font-weight: 900;
+  font-family: "Sono", sans-serif;
+  position: relative;
+  padding: 0 5px;
+  color: #252850;
+}
+html body {
+  background-color: #161718;
+  color: #fafafa;
+  font-family: "Sono", sans-serif;
 }
 
 .carousel {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 .carousel .carousel-inner {
-  max-height: 100px;
+  max-height: 30px;
+}
+
+.hero {
+  font-size: 1rem;
+  font-weight: 300;
+  color: aliceblue;
+  text-align: center;
+}
+.hero p span {
+  font-weight: 900;
+  font-size: 2rem;
+  font-family: "Fasthand", cursive;
+  position: relative;
+  padding: 0 5px;
+  color: #252850;
 }
 
 /*# sourceMappingURL=estilo.css.map */

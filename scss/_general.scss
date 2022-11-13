@@ -4,6 +4,30 @@
     max-width:  15%;
     max-height: 15%;
 }
+
+html{
+    
+    h1{
+        font-size: 2rem;
+        font-family: 'Roboto', sans-serif;
+        span{
+            font-size: 3rem;
+            font-weight: 900;
+            font-family: 'Sono', sans-serif;
+            position: relative;
+            padding: 0 5px;
+            color:$color-fuente-secundario;
+        }
+        
+
+    }
+
+    body{
+        background-color:$color-fondo;
+        color:$color-fuentes;
+        font-family: 'Sono', sans-serif;
+    }
+}
     
 
 .carousel {
@@ -15,25 +39,22 @@
     }
 }
 
-.tituloPrincipal{
+.hero{
     
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 300;
     color: aliceblue;
     text-align: center;
     
-    span{
-        font-weight: 700;
+    p{
+        span{
+        font-weight: 900;
+        font-size: 2rem;
+        font-family: 'Fasthand', cursive;
         position: relative;
         padding: 0 5px;
-        color:darkblue
+        color:$color-fuente-secundario;
+        }
     }
 }
 
-html{
-    
-
-    body{
-        background-color:$color-fondo;
-    }
-}
