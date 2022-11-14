@@ -5,11 +5,29 @@
     max-height: 15%;
 }
 
+@media (max-width: 620px) {
+    .logo {
+        max-width:  10%;
+        max-height: 10%;
+    }
+  }
+
+@mixin texto-principal{
+    font-size: 1rem;
+    color:$color-fuentes;
+    font-family: 'Sono', sans-serif;
+
+}
+
 html{
+
+    overflow-x: hidden;
     
     h1{
         font-size: 2rem;
         font-family: 'Roboto', sans-serif;
+
+        
         span{
             font-size: 3rem;
             font-weight: 900;
@@ -17,16 +35,37 @@ html{
             position: relative;
             padding: 0 5px;
             color:$color-fuente-secundario;
-        }
-        
+                &::before{
+                    content:"";
+                    position:absolute;
+                    height: 100%;
+                    bottom: 0;
+                    right: 0;
+                    left: 0;
+                    background-color: $color-fuente-secundario;
+                    border-radius: 8px;
+                    z-index: -1;
+                }
+            
+                    &:hover{
+                        transform: scale(1.05);
+                        color:$color-fuentes;
+                            
+                    }
+        }   
 
     }
 
-    body{
+    header{
+        background-color: $color-fondo;
+    }
+
+    main{
         background-color:$color-fondo;
-        color:$color-fuentes;
-        font-family: 'Sono', sans-serif;
+        @include texto-principal;
+        padding-bottom: 2rem;
     }
+    
 }
     
 
@@ -41,9 +80,8 @@ html{
 
 .hero{
     
-    font-size: 1rem;
+    @include texto-principal;
     font-weight: 300;
-    color: aliceblue;
     text-align: center;
     
     p{
@@ -54,7 +92,29 @@ html{
         position: relative;
         padding: 0 5px;
         color:$color-fuente-secundario;
+
         }
+        
     }
 }
 
+h3 {
+    color:$color-fuente-secundario;
+    padding: 1rem 0 1rem 0;
+    &:hover{
+        transform: scale(1.05);
+        color:$color-fuentes;
+
+    }
+}
+
+footer{
+    @include texto-principal;
+    background-color: $color-fondo;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color:$color-fuente-secundario;
+    p {
+        color:$color-fuente-secundario;
+    }
+}
