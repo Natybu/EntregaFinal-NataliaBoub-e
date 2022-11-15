@@ -1,18 +1,5 @@
 
-.cardsTienda{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-
-    .card{
-        background-color: $color-fondo-secundario;
-        display:inline-flex;
-        padding-top: 2rem;
-       
-        
-        .card-text{
-            color:$color-fuente-secundario;
-    
-        }
-    }
+.card{
+    display: inline-flex;
 }
 

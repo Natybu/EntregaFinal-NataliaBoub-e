@@ -19,17 +19,8 @@
   filter: grayscale(0%);
 }
 
-.cardsTienda {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-.cardsTienda .card {
-  background-color: #F8F9FA;
+.card {
   display: inline-flex;
-  padding-top: 2rem;
-}
-.cardsTienda .card .card-text {
-  color: #252850;
 }
 
 .logo {
