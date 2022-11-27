@@ -1,197 +1,287 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página de tienda del sitio noche a cielo abierto.">
-    <meta name="keywords" content="astrofotografía, tienda">
-    <link rel="shortcut icon" href="../imgLogos/logo.png" type="image/x-icon">
-    <title>NCA| Tienda</title>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <!-- iconos -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
-    <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/estilo.css">
-    
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Página de tienda del sitio noche a cielo abierto.">
+  <meta name="keywords" content="astrofotografía, tienda">
+  <link rel="shortcut icon" href="../imgLogos/logo.png" type="image/x-icon">
+  <title>NCA| Tienda</title>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <!-- iconos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.1/font/bootstrap-icons.css">
+  <!-- aos -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="../css/estilo.css">
+
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img class="logo" src="../imgLogos/logo.png" alt="logo" >
-          </a>
-          
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="galeria.html">Galería</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="tienda.html">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Buscar</button>
-            </form>
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html">
+        <img class="logo" src="../imgLogos/logo.png" alt="logo">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="galeria.html">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-dark" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <header>
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imgCarousel/carousel3.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
+        </div>
+        <div class="carousel-item">
+          <img src="../imgCarousel/carousel4.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
+        </div>
+      </div>
+    </div>
+
+    <section class="hero d-flex flex-colum justify-content-center align-item-center">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-6 text-center">
+            <h1>NOCHE A <span>CIELO</span> ABIERTO</h1>
+            <p>La vida es sólo un vistazo momentáneo de las maravillas de este asombroso Universo... <span>Carl
+                Sagan.</span></p>
           </div>
         </div>
-      </nav>
+      </div>
+    </section>
 
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../imgCarousel/carousel5.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
+        </div>
+        <div class="carousel-item">
+          <img src="../imgCarousel/carousel6.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
+        </div>
+      </div>
+    </div>
+  </header>
 
-      <header>
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="../imgCarousel/carousel3.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
-              </div>
-              <div class="carousel-item">
-                <img src="../imgCarousel/carousel4.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
-              </div>                  
-            </div>
-          </div>
-  
-          <section class="hero d-flex flex-colum justify-content-center align-item-center">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                  <h1>NOCHE A <span>CIELO</span> ABIERTO</h1>
-                  <p>La vida es sólo un vistazo momentáneo de las maravillas de este asombroso Universo... <span>Carl Sagan.</span></p>
-                </div>
-              </div>
-            </div>
-          </section>
-  
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="../imgCarousel/carousel5.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
-            </div>
-            <div class="carousel-item">
-              <img src="../imgCarousel/carousel6.png" class="d-block w-100" alt="collage imagenes de cielos nocturnos">
-            </div>                  
+  <main>
+
+    <section class="container">
+      <h2>TIENDA</h2>
+
+      <section class="container categorias">
+
+        <div>
+          <h3>ACCESORIOS</h3>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/bolsa.png" class="card-img-top" alt="bolsa de mano">
+          <div class="card-body">
+            <p class="card-text">Bolsa de mano nebulosa.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
           </div>
         </div>
-      </header>
 
-      <main>
-
-        <section class="container">
-          <h2>TIENDA</h2>
-
-          <div>
-            <p>Accesorios</p>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/bolsaSombra.png" class="card-img-top" alt="bolsa de mano">
+          <div class="card-body">
+            <p class="card-text">Bolsa de mano sombra.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
           </div>
-        
-          <div class="card" style="width: 18rem;">
-            <img src="../imgTienda/bolsa.png" class="card-img-top" alt="bolsa de mano">
-            <div class="card-body">
-              <h5 class="card-title">Accesorios</h5>
-              <p class="card-text">Bolsa de mano reciclable.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-
-          <div class="card" style="width: 18rem;">
-            <img src="../imgTienda/bolsaSombra.png" class="card-img-top" alt="bolsa de mano">
-            <div class="card-body">
-              <h5 class="card-title">Accesorios</h5>
-              <p class="card-text">Bolsa de mano reciclable.</p>
-              <a href="#" class="btn btn-primary">Comprar</a>
-            </div>
-          </div>
-           
+        </div>
       </section>
 
-      <section class="container">
-        
+
+
+      <section class="container categorias">
+
         <div>
-          <p>Ropa</p>
+          <h3>ROPA</h3>
         </div>
-      
+
         <div class="card" style="width: 18rem;">
           <img src="../imgTienda/buzo3.png" class="card-img-top" alt="buzos">
           <div class="card-body">
-            <h5 class="card-title">Accesorios</h5>
-            <p class="card-text">Bolsa de mano reciclable.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Buzos.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
           <img src="../imgTienda/musculosas.png" class="card-img-top" alt="musculosas">
           <div class="card-body">
-            <h5 class="card-title">Accesorios</h5>
-            <p class="card-text">Bolsa de mano reciclable.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Musculosas.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container categorias">
+
+        <div>
+          <h3>GORRAS</h3>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/gorra1.png" class="card-img-top" alt="buzos">
+          <div class="card-body">
+            <p class="card-text">Gorra nubes.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
           </div>
         </div>
 
         <div class="card" style="width: 18rem;">
-          <img src="../imgTienda/gorras.png" class="card-img-top" alt="gorras">
+          <img src="../imgTienda/gorra2.png" class="card-img-top" alt="musculosas">
           <div class="card-body">
-            <h5 class="card-title">Accesorios</h5>
-            <p class="card-text">Bolsa de mano reciclable.</p>
-            <a href="#" class="btn btn-primary">Comprar</a>
+            <p class="card-text">Gorra nebulosa.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
           </div>
-        </div>    
-         
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/gorra3.png" class="card-img-top" alt="buzos">
+          <div class="card-body">
+            <p class="card-text">Gorra luna llena.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/gorra4.png" class="card-img-top" alt="musculosas">
+          <div class="card-body">
+            <p class="card-text">Gorra rayos.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/gorra6.png" class="card-img-top" alt="musculosas">
+          <div class="card-body">
+            <p class="card-text">Gorra horizonte.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="container categorias">
+
+        <div>
+          <h3>PARA EL HOGAR</h3>
+        </div>
+
+       
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza1.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Taza rayos.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+        
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza2.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Taza faro.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza3.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Tazas nublado.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza4.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Tazas ramas amarilla.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza5.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Tazas ramas gris.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza6.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Taza nebulosa.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="../imgTienda/taza7.png" class="card-img-top" alt="tazas">
+          <div class="card-body">
+            <p class="card-text">Taza nebulosa.</p>
+            <a href="#" class="btn btn-dark">Comprar</a>
+          </div>
+        </div>
+
+      </section>
     </section>
 
-    <section class="container">
-        
-      <div>
-        <p>Para el hogar</p>
+
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="footer">
+
+    <div class="container d-flex flex-colum justify-content-center align-item-center">
+      <div class="copyright">
+        &copy; Copyright <strong>Noche a Cielo Abierto</strong>. todos los derechos reservados.
       </div>
+      <div>
 
-      <div class="card" style="width: 18rem;">
-        <img src="../imgTienda/tazaFaro.png" class="card-img-top" alt="tazas">
-        <div class="card-body">
-          <h5 class="card-title">Accesorios</h5>
-          <p class="card-text">Bolsa de mano reciclable.</p>
-          <a href="#" class="btn btn-primary">Comprar</a>
-        </div>
-      </div>    
-       
-  </section>
+  </footer>
 
 
-    </main>
 
-      <!-- footer -->
-
-      <footer class="footer">
-      
-        <div class="container d-flex flex-colum justify-content-center align-item-center">
-          <div class="copyright">
-            &copy; Copyright <strong>Noche a Cielo Abierto</strong>. todos los derechos reservados.
-          </div>
-        <div>    
-
-    </footer>
-    
-
-
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-    <!-- JavaScript Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

@@ -1,5 +1,20 @@
 
 .card{
     display: inline-flex;
+    margin-bottom: 2rem;
+
+    &:hover {
+        transform: scale(1.03);
+        filter: grayscale(0%);
+    }
+       
+}
+
+.categorias{
+    padding-top: 3rem;
+}
+
+.card-text{
+    color:$color-fuente-secundario;
 }
 

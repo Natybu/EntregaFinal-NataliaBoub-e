@@ -21,6 +21,19 @@
 
 .card {
   display: inline-flex;
+  margin-bottom: 2rem;
+}
+.card:hover {
+  transform: scale(1.03);
+  filter: grayscale(0%);
+}
+
+.categorias {
+  padding-top: 3rem;
+}
+
+.card-text {
+  color: #252850;
 }
 
 .logo {
